@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  hlf-toolbox:
+    image: rafaelluna2410/hlf-toolbox:latest
+    container_name: hlf-toolbox
+    command: ["/bin/bash", "-c", "sleep infinity"]
